@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 900px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+aside.left {
+    flex: 1;
+    max-width: 250px;
+    padding-right: 20px;
+}
+
+main.right {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box {
+    padding: 15px;
+    background: #d3d3d3;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: background 0.3s;
+    overflow: hidden; 
+}
+
+.box:hover {
+    background: #ffdab9;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: block;
+    margin: 0 auto 20px auto; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.box p {
+    margin: 5px 0;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+button.btn {
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    aside.left {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    main.right {
+        flex: 1;
+    }
+}

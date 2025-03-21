@@ -3,48 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja De Vida</title>
-    <link rel="icon" type="image/png" href="imagenes/mifoto.jpg">
+    <link rel="icon" type="image/png" href="contenido/imagenes/perfil.jpg">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="contenido/estilos.css">
 </head>
 <body>
-    <img src="imagenes/mifoto.jpg" alt="mi foto">
-        <div class="Datos">
-            <strong>Datos Personales</strong>
-            <p> <strong>NOMBRES:</strong>Juan Camilo</p>
-            <p> <strong>APELLIDOS:</strong>Amezquita Carrera</p>
-            <p> <strong>EMAIL:</strong>jcaopita@gmail.com</p>
-            <p> <strong>TELEFONO:</strong><a href=" https://wa.me/573158178155">3158178155</a></p>
-            <p> <strong>DIRECCION:</strong><a href="https://maps.app.goo.gl/TCuahZN2Dv8mUH1NA">calle 9#26a-4</a></p>
-            <p> <strong>CIUDAD:</strong> Bucaramanga</p>
-        </div>
-        <div class="redes">
-            <strong>Redes Sociales</strong>
-        <div class="redes Sociales"></div>
-            <a href="https://web.facebook.com/FunMultiverse">
-                <img src="imagenes/facebook.webp" alt="facebook" width="40px"></a>
-            <a href="https://www.instagram.com/jca_triq?igsh=MXNpd2t4b2lndjdocA==">
-                <img src="imagenes/instagram.png" alt="facebook" width="40px"></a>
-            <a href="https://www.youtube.com/@Jca_Triq">
-                <img src="imagenes/youtube.avif" alt="facebook" width="40px"></a>
-            <a href="https://kick.com/mr-opita-g">
-                <img src="imagenes/kick.avif" alt="facebook" width="40px"></a>
-            <a href="https://github.com/JCAplata">
-                <img src="imagenes/git.png" alt="facebook" width="40px"></a>
-            <a href="https://www.tiktok.com/@jca_triq?_t=ZS-8uobjOeS3N9&_r=1">
-                <img src="imagenes/tiktok.jpg" alt="facebook" width="40px"></a>
+    <div class="container">
+        <aside class="left">
+            <img src="contenido/imagenes/perfil.jpg" alt="Foto de perfil" class="profile-img">
+            
+            <div class="box">
+                <h3>Personal Data</h3>
+                <p><strong>Names:</strong> Juan Camilo</p>
+                <p><strong>Surnames:</strong> Amezquita Carrera</p>
+                <p><strong>Email:</strong> <a href="mailto:jcaopita@gmail.com">jcaopita@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href=" https://wa.me/573158178155 " target="_blank">3158178155</a></p>
+                <p><strong>Address:</strong> <a href="https://www.google.com/maps/place/Cl.+9+%23+26A-4,+Bucaramanga,+Santander/@7.138575,-73.1233402,17z/data=!3m1!4b1!4m6!3m5!1s0x8e68156dafcd1083:0xc7ab1ea21a3e1429!8m2!3d7.138575!4d-73.1207653!16s%2Fg%2F11x2m35vwp?hl=es&entry=ttu&g_ep=EgoyMDI1MDMxOS4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D" target="_blank">Calle 9#26a-4</a></p>
+                <p><strong>City:</strong> Bucaramanga</p>
             </div>
-        </div>
-        <div class="section">
-            <strong>Estudios</strong>
-            <p> <strong>PRIMARIA:</strong> colegio confamiliar los lagos</p><img src="imagenes/lagos.png" alt="Colegio confamiliar los lagos" width="40px">
-            <p> <strong>SECUNDARIA:</strong> colegio cooperativo utrahuilca</p><img src="imagenes/utrahuilca.png" alt="Colegio cooperativo utrahuilca" width="40px">
-            <p> <strong>TECNICO:</strong> tecnico profecional en soporte de sistemas informaticos y redes</p><img src="imagenes/fet.png" alt="Fundacion escuela tecnologica de neiva" width="40px">
-        </div>
-        <div class="section">
-            <strong>Stack Tecnológico</strong>
-            <p>Íconos de habilidades aquí...</p>
-        </div>
-        <button>Ver Inglés</button>
+            
+            <div class="box">
+                <h3>Social Networks</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/FunMultiverse"><img src="contenido/imagenes/facebook.webp" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/jca_triq?igsh=MXNpd2t4b2lndjdocA=="><img src="contenido/imagenes/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.youtube.com/@Jca_Triq"><img src="contenido/imagenes/youtube.avif" alt="YouTube"></a>
+                    <a href="https://github.com/JCAplata"><img src="contenido/imagenes/github.png" alt="GitHub"></a>
+                    <a href="https://www.tiktok.com/@jca_triq?_t=ZS-8uobjOeS3N9&_r=1"><img src="contenido/imagenes/tiktok.jpg" alt="Tiktok"></a>
+                    <a href="https://kick.com/mr-opita-g"><img src="contenido/imagenes/kick.avif" alt="Kick"></a>
+                </div>
+            </div>
+        </aside>
+        
+        <main class="right">
+            <div class="box">
+                <h3>About Me</h3>
+                <p>I am a 22-year-old young man who adapts very well to new environments. I am a leader, confident in what I do, and I never give up in the face of difficult challenges, because I like to test myself every day in the face of everything that comes my way.</p>
+            </div>
+            
+            <div class="box">
+                <h3>Completed Studies</h3>
+                <p> <strong>Primary:</strong> School Confamiliar Los Lagos <img src="contenido/imagenes/lagos.png" width="40px" alt="Confamiliar Los Lagos"></p>
+                <p> <strong>Secondary:</strong> School Cooperativo Utrahuilca <img src="contenido/imagenes/utrahuilca.png" width="40px" alt="Cooperativo Utrahuilca"></p>
+                <p> <strong>Technical:</strong>Professional Technician in Computer Systems and NetworkSupport<img src="contenido/imagenes/fet.png" width="40px" alt="Técnico"></p>
+            </div>
+            
+            <div class="box">
+                <h3>Stack Tecnológico</h3>
+                <div class="tech-icons">
+                    <a href="https://www.python.org/downloads/"><img src="contenido/imagenes/py.png" width="40px" alt="Python"></a>
+                    <a href="https://git-scm.com/downloads"><img src="contenido/imagenes/gitba.png" width="40px" alt="Git"></a>
+                    <a href="https://www.w3schools.com/html/default.asp"><img src="contenido/imagenes/html.png" width="40px" alt="HTML"></a>
+                    <a href="https://www.w3schools.com/css/default.asp"><img src="contenido/imagenes/css.png" width="40px" alt="CSS"></a>
+                    <a href="https://unity.com/es/products/unity-personal"><img src="contenido/imagenes/unity.png" width="40px" alt="Unity"></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="contenido/español.html" class="btn">see in spanish</a>
+            </div>
+        </main>
     </div>
 </body>
 </html>
